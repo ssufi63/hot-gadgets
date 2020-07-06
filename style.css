@@ -2,10 +2,14 @@
     height: 50px;
 }
 .container{
-    margin-bottom: 50px;
+    margin-bottom: 100px;
+}
+.nav-bar{
+    margin: 0px 20px;
 }
 .bg-color{
     background-color: #caf5f5;
+    border-radius: 10px;
 }
 .buy-now-button{
     background-color: black;
@@ -31,4 +35,15 @@
 }
 .see{
     color: orangered;
+}
+.about{
+    color: #635b5e;
+}
+.aboutus{
+    padding: 20px 40px;
+}
+.info{
+    text-align: center;
+    color: #FF136F;
+    font-weight: 700;
 }
