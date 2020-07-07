@@ -6,12 +6,13 @@
     <title>Hot Gadgets</title>
     <link rel="shortcut icon" href="media/logo.png" type="image/x-icon">  <!--<p>extra favicon section</p> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-between fixed-top"> <!--fixed top navbar-->
+    <div class="container sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-between"> <!--fixed top navbar-->
             <div>
                 <a class="navbar-brand" href="#">
                     <img class="img" src="media/logo.png" alt="">
@@ -21,7 +22,11 @@
                 <nav class="navbar navbar-light bg-light">
                     <form class="form-inline">
                       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> <!-- extra search bar-->
-                      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                      <!--search icon -->
+                      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" type="submit" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                        <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                      </svg>
                     </form>
                   </nav>
             </div>
@@ -34,7 +39,7 @@
                       <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
                       <a class="nav-item nav-link" href="#product">Product</a>
                       <a class="nav-item nav-link" href="#aboutus">About Us</a>
-                      <a class="nav-item nav-link" href="#contact">ContactUs</a>
+                      <a class="nav-item nav-link" href="#contact">Contact Us</a>
                     </div>
                   </div>
             </div>
@@ -54,7 +59,7 @@
               <div class="carousel-item active">
                   <div class="row align-items-center">
                       <div class="col-md-7">
-                          <h1>HP Pavilion 15</h1>
+                          <h1>Macbook Pro</h1>
                           <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.</p>
                           <h1 class="price">$1289</h1>
                           <button class="buy-now-button">Buy Now </button>
@@ -184,13 +189,62 @@
     </div>
 
 
+    <div class="container category">
+      <h3 class="d-flex justify-content-center align-items-center">
+        Categories
+      </h3>
+      <hr />
+      <div class="row py-5">
+        <div
+          class="col-md-6 d-flex align-content-between align-items-center cat-shadow"
+        >
+          <div class="col-md-3 img-left">
+            <img src="media/Categories/bag.png" alt="" />
+            <h4 class="text-center my-4">Bag</h4>
+          </div>
+          <div class="col-md-3 align-content-around">
+            <div class="img-right-1">
+              <img src="media/Categories/perfume.png" alt="" />
+              <h4 class="text-center my-4">Beauty</h4>
+            </div>
+            <div class="img-right-2">
+              <img src="media/Categories/shoe.png" alt="" />
+              <h4 class="text-center my-4">Shoes</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 w-100 pale-order">
+          <img src="media/Categories/pale-order.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+
 
 
     <div class=" container aboutus bg-color" id="aboutus">
         <h3 class="info">About Us</h3>
+        <br>
         <p class="about">Hot Gadgets is mainly a tech based shop where you will find all kinds of branded feature phones, smartphones, gadgets & accessories under one roof. From our starting since 2016, our motto is to give the best service to our customers at an affordable price. Currently We have 2 branches with 7 outlets at Bashundhara City Shopping Complex & Jamuna Future Park, separate gadget & accessories shop, service center in Bashundhara City.We also have country-wide courier facility & our own machine cut skin facilities for all brands of mobiles named Hotskins.  This group is dedicated to our honorable customers who are a crucial part of our Hot Gadget's family. Feel free to share your thoughts, opinions or asking’s about us.</p>
 
     </div>
+
+    <div class="container aboutus bg-color" id="contact">
+      <h3 class="info">Contact Us</h3>
+      <br>
+      <div class="d-flex justify-content-center">
+        <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+      <a href="https://www.twitter.com/" target="_blank" class="fa fa-twitter"></a>
+      <a href="https://www.gmail.com/" target="_blank" class="fa fa-google"></a>
+      <a href="https://www.linkedin.com/" target="_blank" class="fa fa-linkedin"></a>
+      </div>
+      
+    </div>
+
+
+    <footer>
+      <small>&copy;2020.All rights reserved. || Dhaka, Bangladesh.</small>
+    </footer>
 
 
 
